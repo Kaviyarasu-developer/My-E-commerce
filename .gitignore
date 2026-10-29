@@ -22,3 +22,31 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Build output
+target/
+
+# Eclipse
+.classpath
+.project
+.settings/
+.metadata/
+bin/
+
+# Other IDEs
+.idea/
+*.iml
+.vscode/
+
+# Secrets and local configuration
+.env
+*.env
+application-local.properties
+application-local.yml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Keep the Maven wrapper (the *.jar rule above would otherwise hide it)
+!.mvn/wrapper/maven-wrapper.jar
